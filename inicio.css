@@ -39,6 +39,17 @@ header {
     border-top: 1px solid #86ca18; /* Línea de 1px de color gris claro */
     
 }
+
+h1 {
+    background-image: url(recursos/mutazion_fondo.png);
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    font-weight: bold;
+    text-align: center;
+    
+}
 /* Estilo para el párrafo */
 .somos {
     color: aliceblue;
@@ -117,6 +128,8 @@ header {
 .gallery {
     margin-top: 0; /* Eliminar margen superior */
 }
+
+
 
 .gallery a {
     margin: 10px;

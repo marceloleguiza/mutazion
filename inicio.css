@@ -3,15 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    background-image: url('recursos/CINE.png');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
 /* Estilo para el header */
 header {
     background-image: url('recursos/CINE.png');

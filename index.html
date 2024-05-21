@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esto es Mutazion</title>
+    <link rel="stylesheet" href="inicio.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav_contenedor"></div>
+        </nav>
+    </header>
+
+    <hr class="divider">
+
+    <div class="gallery">
+        <a href="https://cafecito.app/mutazion" target="_blank">
+            <img src="Aportes/Cafecito.png" alt="Imagen 1">
+        </a>
+        <a href="https://www.paypal.com/donate?hosted_button_id=LQYF6FMYB526E" target="_blank">
+            <img src="Aportes/Paypal.png" alt="Imagen 2">
+        </a>
+        <a href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380848f6159c3018f7e1176320737">
+            <img src="Aportes/Suscripcion_A.png" alt="Imagen 3">
+        </a>
+        <a href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380848f6159bc018f7e127b230725" target="_blank">
+            <img src="Aportes/Suscripcion_B.png" alt="Imagen 4">
+        </a>
+        <a href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380848f6159c3018f7e2111b5073f" target="_blank">
+            <img src="Aportes/Suscripcion_C.png" alt="Imagen 5">
+        </a>
+
+        <p class="somos">
+            Desde los años 90, nos dedicamos al cine fantástico en Argentina. Aunque nuestras películas no sean convencionales, buscamos que todos las vean y nos esforzamos por destacar, evitando ser más de lo mismo. ¡Esto es Mutazion!
+        </p>
+
+    </div>
+
+    
+    <div class="banner swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="https://kick.com/mutazion" target="_blank"><img src="recursos/Banner_Kick.png" alt="Slide 1" ></a> </div>
+            <div class="swiper-slide"><a href="https://youtube.com/playlist?list=PLPF8J9W2xGqB6EHxjE9Mzq0wGYr5XYZCC&si=p1Ce-MSLCb9WWUpJ" target="_blank"><img src="recursos/Banner_peliculas.png" alt="Slide 2"></a></div>
+            <div class="swiper-slide"><a href="https://youtu.be/YrHXeQKM5I4?si=LkjbH_RSyszSDLpE" target="_blank"><img src="recursos/Banner_protocolo.png" alt="Slide 3"></a></div>
+        </div>
+    
+    </div>
+
+    <footer>
+        <div class="redes_sociales">
+            <a href="https://kick.com/mutazion" target="_blank">
+                <img src="recursos/ri_kick-line.png" alt="Kick">
+            </a>
+            <a href="https://www.youtube.com/mutazion" target="_blank">
+                <img src="recursos/mingcute_youtube-line.png" alt="YouTube">
+            </a>
+            <a href="https://www.instagram.com/mutazion" target="_blank">
+                <img src="recursos/hugeicons_instagram.png" alt="Instagram">
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            loop: true,
+            autoplay: {
+                delay: 3000,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>

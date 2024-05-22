@@ -3,12 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
+    
 }
-
 
 /* Estilo para el header */
 header {
@@ -158,6 +154,7 @@ h1 {
 @media screen and (max-width: 1200px) {
     .gallery img {
         width: 180px;
+        overflow-x: hidden
     }
 }
 
@@ -165,6 +162,7 @@ h1 {
 @media screen and (max-width: 992px) {
     .gallery {
         justify-content: center;
+        overflow-x: hidden
     }
 
     .gallery img {
@@ -173,6 +171,7 @@ h1 {
 
     .gallery a:nth-child(-n+3) {
         margin-bottom: 20px;
+        overflow-x: hidden
     }
 }
 
@@ -180,6 +179,7 @@ h1 {
 @media screen and (max-width: 768px) {
     .gallery img {
         width: 120px;
+        overflow-x: hidden
     }
 }
 
@@ -188,14 +188,17 @@ h1 {
     .gallery {
         flex-direction: column;
         align-items: center;
+        overflow-x: hidden
     }
 
     .gallery img {
         width: 100px;
+        overflow-x: hidden
     }
 
     .gallery a {
         margin-bottom: 20px;
+        overflow-x: hidden
     }
 }
 

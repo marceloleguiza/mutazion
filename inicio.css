@@ -20,7 +20,7 @@ header {
     justify-content: center;
     align-items: center; /* Centra verticalmente el contenido dentro del header */
     margin-bottom: 0px; /* Reduce el espacio debajo del header */
-    
+    overflow-x: visible; /* Permitir desbordamiento horizontal */
 }
 
 /* Contenedor de la navegación */
